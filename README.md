@@ -1,6 +1,6 @@
 # npmtest-drawille
 
-#### test coverage for  [drawille (v1.1.0)](https://github.com/madbence/node-drawille#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-drawille.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-drawille) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-drawille.svg)](https://travis-ci.org/npmtest/node-npmtest-drawille)
+#### basic test coverage for  [drawille (v1.1.0)](https://github.com/madbence/node-drawille#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-drawille.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-drawille) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-drawille.svg)](https://travis-ci.org/npmtest/node-npmtest-drawille)
 
 #### Drawing in terminal with unicode braille characters
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-drawille/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-drawille/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-drawille/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-drawille/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-drawille/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-drawille/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-drawille/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-drawille/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-drawille/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-drawille/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-drawille/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-drawille/build/coverage.html/index.html)
 
@@ -70,7 +70,8 @@
     "scripts": {
         "test": "echo \"OK 1337/1337 passed! (100%)\""
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
